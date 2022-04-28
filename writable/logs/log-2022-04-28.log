@@ -1,0 +1,32 @@
+CRITICAL - 2022-04-28 00:11:03 --> Undefined variable $myClass
+#0 D:\xampp\htdocs\NFC\app\Views\add-user.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 23)
+#1 D:\xampp\htdocs\NFC\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\NFC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\NFC\system\Common.php(1089): CodeIgniter\View\View->render('add-user', Array, true)
+#4 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(61): view('add-user')
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->addUser()
+#6 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-28 00:59:27 --> syntax error, unexpected token ";"
+#0 D:\xampp\htdocs\NFC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\NFC\system\Common.php(1089): CodeIgniter\View\View->render('add-user', Array, true)
+#2 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(61): view('add-user', Array)
+#3 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->addUser()
+#4 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-28 00:59:48 --> syntax error, unexpected token ";"
+#0 D:\xampp\htdocs\NFC\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\NFC\system\Common.php(1089): CodeIgniter\View\View->render('add-user', Array, true)
+#2 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(61): view('add-user', Array)
+#3 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->addUser()
+#4 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}

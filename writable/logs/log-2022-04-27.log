@@ -1,0 +1,30 @@
+CRITICAL - 2022-04-27 23:13:18 --> Undefined variable $userModel
+#0 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 142)
+#1 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(121): App\Controllers\UserController->nyoba3('99')
+#2 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(91): App\Controllers\UserController->nyoba2('Y2RlMDY5MDVHSTV...', '99')
+#3 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->saveUser()
+#4 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 23:13:55 --> Undefined variable $userModel
+#0 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 142)
+#1 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(121): App\Controllers\UserController->nyoba3('88')
+#2 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(91): App\Controllers\UserController->nyoba2('MTZFZGZFN0ZyeDJ...', '88')
+#3 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->saveUser()
+#4 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-27 23:14:10 --> Undefined variable $userModel
+#0 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 142)
+#1 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(121): App\Controllers\UserController->nyoba3('88')
+#2 D:\xampp\htdocs\NFC\app\Controllers\UserController.php(91): App\Controllers\UserController->nyoba2('YkNlQzU4RGVuZE1...', '88')
+#3 D:\xampp\htdocs\NFC\system\CodeIgniter.php(832): App\Controllers\UserController->saveUser()
+#4 D:\xampp\htdocs\NFC\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 D:\xampp\htdocs\NFC\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\NFC\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\NFC\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
